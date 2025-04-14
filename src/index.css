@@ -1,14 +1,20 @@
+root {
+  padding: 0px;
+  border: 0px;
+  margin-top: 0px;
+}
+
 /* body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 33%, rgba(158, 41, 112, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  background-color: #c1440e;
 }
 
 .main-div {
   margin-left: 100%;
+  background-color: gray;
 }
 
 .login {
@@ -65,18 +71,34 @@
   cursor: pointer;
   transition: top ease 0.5s;
   top: -10px
-} */
+}
 
-
+ */
 
 
 /* Second */
 
 
-.navbar {
+/* .navbar {
   border: 2px solid black;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+} */
+
+.main-div {
+  display: flex;
+}
+
+.left-div {
+  width: 50%;
+  height: 100vh;
+  background-color: #c1440e;
+}
+
+.right-div {
+  width: 50%;
+  height: 100vh;
+  background-color: pink;
 }
